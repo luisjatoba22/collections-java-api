@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CarrinhoDeCompras",
+      "request": "launch",
+      "mainClass": "list.OperacoesBasicas.CarrinhoDeCompras",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
+      "name": "ListaTarefa",
+      "request": "launch",
+      "mainClass": "list.OperacoesBasicas.ListaTarefa",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "name": "Electron Main",
+      "program": "${workspaceFolder}/main.js",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "name": "Attach by Process ID",
+      "processId": "${command:PickProcess}",
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/app.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    }
+  ]
+}
