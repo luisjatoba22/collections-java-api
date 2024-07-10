@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CatalagosLivros",
+      "request": "launch",
+      "mainClass": "list.Pesquisa.CatalagosLivros",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
       "name": "CarrinhoDeCompras",
       "request": "launch",
       "mainClass": "list.OperacoesBasicas.CarrinhoDeCompras",
