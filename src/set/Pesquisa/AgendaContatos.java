@@ -19,7 +19,7 @@ public class AgendaContatos {
     System.out.println(contatoSet);
   }
 
-  public Set<Contatos> pesquisarPorNome(String nome){
+  public void pesquisarPorNome(String nome){
 
     Set<Contatos> contantosPorNome = new HashSet<>();
 
@@ -30,7 +30,7 @@ public class AgendaContatos {
       }
     }
 
-    return contantosPorNome;
+    System.out.println(contantosPorNome);
   } else {
     throw new RuntimeException("O conjunto está vazio!");
   }
@@ -64,10 +64,12 @@ public class AgendaContatos {
 
       agendaContatos.exbirContatos();
 
+      
       agendaContatos.pesquisarPorNome("Mario");
 
-      agendaContatos.adicionarContato("Mario Quitanda", 777777777);
+      System.out.println(agendaContatos.atualizarTelfone("Mario Quitanda", 777777777)); 
   }
 
   
 }
+

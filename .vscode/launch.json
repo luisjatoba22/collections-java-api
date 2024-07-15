@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ListaTarefas",
+      "request": "launch",
+      "mainClass": "set.Pesquisa.ListaTarefas",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
       "name": "AgendaContatos",
       "request": "launch",
       "mainClass": "set.Pesquisa.AgendaContatos",
