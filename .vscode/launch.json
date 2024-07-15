@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AgendaContatos",
+      "request": "launch",
+      "mainClass": "set.Pesquisa.AgendaContatos",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
       "name": "ConjuntoPalavrasUnicas",
       "request": "launch",
       "mainClass": "set.OperacoesBasicas.ConjuntoPalavrasUnicas",
