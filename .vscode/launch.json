@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GerenciadorAlunos",
+      "request": "launch",
+      "mainClass": "set.Ordenacao.GerenciadorAlunos",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
+      "name": "CadastroProdutos",
+      "request": "launch",
+      "mainClass": "set.Ordenacao.CadastroProdutos",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
       "name": "ListaTarefas",
       "request": "launch",
       "mainClass": "set.Pesquisa.ListaTarefas",
