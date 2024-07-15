@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ConjuntoPalavrasUnicas",
+      "request": "launch",
+      "mainClass": "set.OperacoesBasicas.ConjuntoPalavrasUnicas",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
+      "name": "ConjuntoConvidados",
+      "request": "launch",
+      "mainClass": "set.OperacoesBasicas.ConjuntoConvidados",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
       "name": "OrdenacaoNumeros",
       "request": "launch",
       "mainClass": "list.Ordenacao.OrdenacaoNumeros",
