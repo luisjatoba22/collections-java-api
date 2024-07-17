@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ContagemPalavras",
+      "request": "launch",
+      "mainClass": "map.Pesquisa.ContagemPalavras",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
+      "name": "EstoqueProdutos",
+      "request": "launch",
+      "mainClass": "map.Pesquisa.EstoqueProdutos",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
       "name": "Dicionario",
       "request": "launch",
       "mainClass": "map.Dicionario",
