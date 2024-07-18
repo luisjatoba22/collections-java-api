@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AgendaEventos",
+      "request": "launch",
+      "mainClass": "map.Ordenacao.AgendaEventos",
+      "projectName": "collections-java-api_55912e3a"
+    },
+    {
+      "type": "java",
       "name": "ContagemPalavras",
       "request": "launch",
       "mainClass": "map.Pesquisa.ContagemPalavras",
